@@ -1,0 +1,111 @@
+#container{
+       width: 70%;
+    height: 100vh;
+    background-color: white;
+    margin: 0 auto ;
+}
+img{
+    height: 5vh;
+    width: 5vw;
+}
+th, td, table{
+    /* border: 2px solid black;*/
+    border-collapse: collapse; 
+    /* padding-right: 15px; */
+    /* padding-left: 15px; */
+    padding: 10px;
+}
+
+th{
+    background-color: rgba(223, 46, 46, 0.466);
+    
+}
+
+td{
+    border-bottom: 1px solid red;
+}
+
+th:nth-child(1){
+    width: 10%;
+}
+th:nth-child(2){
+    width: 45%;
+}
+th:nth-child(3){
+    width: 15%;
+}
+th:nth-child(4){
+    width: 15%;
+}
+th:nth-child(5){
+    width: 15%;
+}
+
+.rosa{
+    background-color: rgba(255, 192, 203, 0.5);
+    color: rgba(248, 64, 94, 0.658) ;
+}
+.azul{
+    background-color: rgba(0, 255, 255, 0.322);
+    color:  rgba(38, 173, 173, 0.788);
+}
+.verde{
+    background-color: rgba(103, 221, 103, 0.315);
+    color:rgba(88, 182, 88, 0.781) ;
+}
+.vermelho{
+    background-color: rgba(255, 0, 0, 0.37);
+    color:  rgba(255, 0, 0, 0.651);
+}
+
+
+.div{
+    width: 2vw;
+    height: 2vh;
+    margin-right: 5px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+#roxo{
+    background-color: rgba(137, 43, 226, 0.452);
+    border: blueviolet solid 2px;
+   
+}
+
+#azul{
+    background-color: rgba(0, 255, 255, 0.377);
+    border: rgb(0, 195, 255) solid 2px;
+  
+}
+#verde{
+    background-color: rgba(0, 128, 0, 0.384);
+    border: rgb(11, 143, 11) solid 2px;
+ 
+}
+#red{
+    background-color: rgba(255, 0, 0, 0.349);
+    border: rgb(226, 43, 43) solid 2px;
+
+}
+#bloco{
+    display: flex;
+
+}
+p{
+    float: left;
+    margin-right: 10px;
+}
+#purple{
+ color: blueviolet;
+}
+#blue{
+  color:  rgb(0, 195, 255);
+}
+#green{
+   color: rgb(11, 143, 11);
+}
+#vermelho{
+
+    color: rgb(226, 43, 43);
+}
