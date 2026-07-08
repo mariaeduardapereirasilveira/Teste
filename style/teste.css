@@ -1,0 +1,48 @@
+/* div{
+    width: 20vw;
+    height:20vh ;
+    background-color: aqua;
+}
+section{
+    width: 20vw;
+    height:20vh ;
+    background-color: rgb(255, 217, 0);
+}
+article{
+    width: 20vw;
+    height:20vh ;
+    background-color: rgb(225, 0, 255);
+} */
+
+.container{
+    display: grid;
+    grid-template-areas:'header header header'
+                        'aside main main'
+                        'footer footer footer';
+
+    height: 100vh;
+    width: 100vw;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr 5fr 1fr;                    
+    gap: 10px 10px;
+}
+
+#cabecalho{  
+    grid-area: header;
+    background-color:aqua ;
+
+}
+
+aside{
+    grid-area: aside;
+    background-color:rgb(255, 217, 0) ;
+}
+main{
+    grid-area: main;
+    background-color:rgb(225, 0, 255) ;
+}
+
+footer{
+    grid-area: footer;
+    background-color: rgb(0, 255, 136);
+}
