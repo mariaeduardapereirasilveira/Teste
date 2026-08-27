@@ -1,3 +1,5 @@
+
+//LISTA 1
 // exrcicio 1
 function Aprovados(){
     let contAprov=0;
@@ -78,7 +80,7 @@ let soma= 0;
 // soma();
 
 // exercicio 4
-let pacientes= Number(prompt("Insira a quantidade de pacientes do mes"));
+// let pacientes= Number(prompt("Insira a quantidade de pacientes do mes"));
 let maisLonge= -Infinity;
 let ideal=0;
 let longeDoPeso= "";
@@ -105,4 +107,137 @@ if(diferenca > maisLonge){
 return document.write(`Quantidade de pessoas no peso ideal: ${ideal}
                  \n Pessoa mais longe do peso ideal: ${longeDoPeso}`);
 }
-pesoIdeal();
+// pesoIdeal();
+
+// LISTA 2
+//exercicio 1
+function leituraNum(){
+    let numero = Number(prompt("Insira um número"));
+    
+    while(numero !== 0){
+        if(numero > 0){
+             document.write("Número positivo");
+             numero = Number(prompt("Insira um número"));
+        }else{
+             document.write("número negativo");
+             numero = Number(prompt("Insira um número"));
+        }
+}
+
+}
+// leituraNum();
+
+//exercicio 2
+function contNum(){
+    let numero = Number(prompt("Insira um número"));
+    let cont=0;
+
+    while(numero !== 0){
+        if(numero >= 100 && numero <=200){
+             cont++
+            }
+            numero = Number(prompt("Insira um número"));
+    
+}
+
+document.write(cont);
+
+}
+// contNum();
+
+//exercicio 3
+function idades(){
+
+    let idade= Number(prompt("Insira uma idade"));
+    let contMax=0;
+    let contMin= 0;
+    while(idade >= 0){
+    if(idade >= 18){
+        contMax++;
+    }else{
+        contMin++;
+    }
+     idade = Number(prompt("Insira uma idade"));
+        
+    }
+    document.write(`Maiores de idade: ${contMax} \n Menores de idade: ${contMin}`);
+}
+// idades();
+//exercicio 4
+
+function senha(){
+    let senha= Number(prompt("Insira a senha"));
+    while(senha !== 2008){
+        if(senha != 2008){
+            alert("senha incorreta");
+            senha= Number(prompt("Insira a senha"));
+        }
+    }
+    if(senha == 2008){
+      return  alert("Acesso permitido");
+    }
+}
+
+// senha();
+//exercicio 5
+
+function calculadora(){
+    let continuar;
+    do{
+        let valor1= Number(prompt("Insira um valor"));
+        let valor2= Number(prompt("Insira outro valor"));
+    
+        let operacao= Number(prompt("Insira a operação desejada: \n Subtração(1);\n  Soma(2); \n Multiplicação(3);\n Divisão(4);\n Potência(5); \n Reaiz quadrada(6)"));
+        
+        if(operacao == 1){
+            let result = valor1 - valor2;
+            alert(result);    
+        }else if( operacao == 2){
+             let result = valor1 + valor2;
+            alert(result);
+        }else if (operacao == 3){
+             let result = valor1 * valor2;
+            alert(result);
+        }else if(operacao == 4){
+             let result = valor1 / valor2;
+            alert(result);
+        }else if (operacao == 5){
+          let result =  Math.pow(valor1, valor2);
+           alert(result);
+
+        }else if (operacao == 6){
+             let result = Math.sqrt(valor1);
+             let result2= Math.sqrt(valor2);
+            alert(result + "\n " + result2);
+        }else{
+              alert("Operação inválida!");
+        }
+     continuar= confirm("Gostaria de continuar os calculos?");
+    }while(continuar == true)
+}
+// calculadora();
+
+//exercicio 6
+function divisao(){
+      let valor1= Number(prompt("Insira um valor"));
+      let valor2= Number(prompt("Insira outro valor"));
+      let continuar=true;
+      while(continuar == true ){
+        
+            while(valor2== 0){
+                 alert("Não é possível dividir por zero!");
+            valor2 = Number(prompt("Insira outro valor diferente de zero"));
+            }
+            alert(valor1/valor2);
+            continuar = confirm("Deseja continuar?");
+              if (continuar == true) {
+            valor1 = Number(prompt("Insira um valor"));
+            valor2 = Number(prompt("Insira outro valor"));
+        }
+
+      }
+    }
+    // divisao();
+
+    //exercicio 7
+    
