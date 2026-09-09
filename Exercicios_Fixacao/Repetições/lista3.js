@@ -1,5 +1,37 @@
 
-//LISTA 1
+//Repetições lista 3
+/*1. Elabore um programa que solicita ao usuário a nota final de 20 alunos. Sabendo que para
+passar de ano o aluno precisa ter nota maior ou igual a 6, o programa deverá imprimir as
+seguintes informações:
+a. Quantos alunos foram aprovados.
+b. Quantos alunos foram reprovados.
+c. Maior nota dentre as 20 notas informadas.
+d. Menor nota dentre as 20 notas informadas.
+
+2. Elabore um programa que solicita inicialmente ao usuário quantas pessoas confirmaram
+presença para ir em uma festa. Então, o programa deverá solicitar o nome e a idade de
+cada pessoa que confirmou presença. Ao final o programa deverá imprimir as seguintes
+informações:
+a. Se tem algum convidado com mais de 70 anos.
+b. Quantidade de convidados maiores de idade (ou seja, com idade >= 18).
+c. Quantidade de convidados menores de idade (ou seja, com idade < 18).
+d. Nome da pessoa mais nova.
+
+3. Elabore um programa que solicita ao usuário dois valores A e B. Utilizando estruturas de
+repetição, o programa deverá calcular e imprimir a soma de todos os valores entre A e B,
+incluindo o A e o B.
+Por exemplo, digamos que o usuário informe 5 para A e 10 para B. O programa deverá
+imprimir na tela o valor 45, que é o resultado de 5 + 6 + 7 + 8 + 9 + 10. Considere que o
+usuário sempre vai informar o menor valor para A e o maior valor para B.
+
+4. Elabore um programa para um endocrinologista. Nesse programa, o endocrinologista
+informa inicialmente a quantidade de pacientes que atendeu ao longo do mês. Após, para
+cada paciente ele informa o nome e mais dois valores: o peso atual do paciente e o peso
+ideal do paciente. O programa deverá imprimir:
+a. O nome do paciente que está mais distante do peso ideal.
+b. A quantidade de pacientes que estão no peso ideal (ou seja, que o peso atual está
+igual ao peso ideal).*/
+
 // exrcicio 1
 function Aprovados(){
     let contAprov=0;
